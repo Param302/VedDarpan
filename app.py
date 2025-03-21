@@ -58,7 +58,7 @@ with tabs[0]:
     # Function for generating LLM response
     def generate_response(prompt):
         if st.session_state['conversation'] is None:
-            llm = ChatOpenAI(model="llama-3.1-70b-instruct", base_url="https://api.perplexity.ai", api_key=OPENAI_API_KEY)
+            llm = ChatOpenAI(model="sonar", base_url="https://api.perplexity.ai", api_key=OPENAI_API_KEY)
             memory = ConversationBufferMemory(return_messages=True)
             st.session_state['conversation'] = ConversationChain(
                 llm=llm,
@@ -105,7 +105,7 @@ with tabs[1]:
     
     st.header("About VedDarpan 🤖")
     st.write("""
-    **VedDarpan** is an open-source chatbot designed to provide the latest online results using advanced AI models. Built with Streamlit and Langchain, VedDarpan leverages the power of the **llama-3.1-sonar-large-128k-chat** model and Perplexity integration with OpenAI. The chatbot is available for public use free of cost.
+    **VedDarpan** is an open-source chatbot designed to provide the latest online results using advanced AI models. Built with Streamlit and Langchain, VedDarpan leverages the power of the **Perplexity Sonar** model. The chatbot is available for public use free of cost.
     """)
 
 with tabs[2]:

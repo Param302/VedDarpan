@@ -8,7 +8,7 @@
 </div>
 
 ## Overview
-VedDarpan is an open-source chatbot designed to provide the latest online results using advanced AI models. Built with Streamlit and Langchain, VedDarpan leverages the power of the llama-3.1-sonar-large-128k-chat model and Perplexity integration with OpenAI. The chatbot is available for public use free of cost.
+VedDarpan is an open-source chatbot designed to provide the latest online results using advanced AI models. Built with Streamlit and Langchain, VedDarpan leverages the power of the Perplexity sonar model. The chatbot is available for public use free of cost.
 
 Try VedDarpan here: [VedDarpan Chatbot](https://veddarpan.streamlit.app/)
 
@@ -16,7 +16,7 @@ Try VedDarpan here: [VedDarpan Chatbot](https://veddarpan.streamlit.app/)
 
 - **Latest Online Results**: Provides up-to-date information by integrating with Perplexity and OpenAI.
 - **User-Friendly Interface**: Built with Streamlit for a simple and intuitive user experience.
-- **Advanced AI Models**: Utilizes the llama-3.1-sonar-large-128k-chat model for accurate and relevant responses.
+- **Advanced AI Models**: Utilizes the Perplexity sonar model for accurate and relevant responses.
 
 ## Getting Started
 
@@ -77,7 +77,7 @@ streamlit run app.py
 
 - Built with [Streamlit](https://streamlit.io/)
 - Powered by [Langchain](https://www.langchain.com/)
-- Uses models from [OpenAI](https://www.openai.com/) and [Perplexity](https://www.perplexity.ai/)
+- [Perplexity](https://www.perplexity.ai/)
 
 ## About the Developer
 I'm [**Shivam Sharma**](https://www.linkedin.com/in/theshivam7/), an undergrad at IIT Madras. I develop websites and apps for Android and iOS, and I'm passionate about AI and ML.
